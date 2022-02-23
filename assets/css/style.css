@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #f09d7a;
+    height: 100vh;
+    font-family: sans-serif;
+  
+    .title {
+      font-size: 2.5rem;
+      color: #a2433f;
+      padding: 5% 2%;
+    }
+  
+    .button {
+      background: #e96e71;
+      color: #fff;
+      font-size: 1.5rem;
+      border: 1px solid #a2433f;
+      border-radius: 0.5em;
+      padding: 0.25em 0.5em;
+      margin-left: 2em;
+  
+      &:hover {
+        cursor: pointer;
+      }
+  
+      &:active {
+        background: #a2433f;
+      }
+    }
+  }
